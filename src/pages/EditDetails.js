@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { useLocation,useNavigate } from 'react-router-dom';
 import { useSelector,useDispatch } from 'react-redux';
-import { studentAdded, studentUpdated } from '../feature/StudentSlice';
+import { studentUpdated } from '../feature/StudentSlice';
 
 
 const EditDetails = () => {
